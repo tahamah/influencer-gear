@@ -10,6 +10,7 @@ body{
     margin: 0%;
     font-family: 'Chewy', cursive;
     font-family: 'Nunito', sans-serif;
+    z-index: 0;
 }
 h1{
     font-size: 50px;
@@ -55,7 +56,10 @@ li{
 nav{
     background-color: #343a40; 
     width: 100%;
-    color: whitesmoke;  
+    color: whitesmoke;
+    position: fixed; 
+    top: 0; 
+    z-index: 1;
 }
 .nav-itams{
     height: 75px;
@@ -93,7 +97,7 @@ nav{
     display: flex;
     justify-content: center;
     max-width: 1600px;
-    margin:5% 15% 0 15%;
+    margin:15% 15% 0 15%;
 }
 .main-title{
     margin-right: 10%;
@@ -174,3 +178,18 @@ nav{
 /* --------------------------------
     Our Subscriber section end 
 ---------------------------------*/
+
+
+/* -------------------
+        fotter  
+--------------------  */
+footer{
+    text-align: center;
+    background: #343a40;
+    color: whitesmoke;
+    padding: 3%;
+}
+.icon{
+    color: #E02C6D;
+    padding: 0% 10px;
+}
