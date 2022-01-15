@@ -23,6 +23,8 @@ h3{
 }
 p{
     font-size: 20px;
+    padding: 0%;
+    margin: 0%;
 }
 .fill-btn{
     border-radius: 10px;
@@ -46,6 +48,9 @@ li{
     transform: scale(1,1);
     position: relative;
     bottom: 5px;
+}
+.cronge-color{
+    color: orange;
 }
 
 
@@ -101,6 +106,9 @@ nav{
 }
 .main-title{
     margin-right: 10%;
+}
+.main-title p{
+    margin-bottom: 5%;
 }
 .title-img{
     margin-left:10%;
@@ -275,9 +283,7 @@ footer{
     .logo>h1{
         font-size: 180%;
     }
-    .fill-btn{
-       display: none;
-    }
+
 }
 /* For mobile Device */
 @media only screen and (max-width:688px) {
