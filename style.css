@@ -1,0 +1,105 @@
+/* ---------------------
+        main font 
+------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Nunito&display=swap');
+
+/*----------------------------
+     Common Style Or Utilites 
+ ----------------------------- */
+body{
+    margin: 0%;
+    font-family: 'Chewy', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.fill-btn{
+    /* border: 2px solid #6718A8; */
+    border-radius: 10px;
+    background: #E02C6D;
+    padding: 12px 24px;
+    transition: background-color 1s ease-in-out;
+}
+li{
+    list-style: none;
+    padding-right: 1.5em;
+}
+.li-hover{
+    padding: 30px 0;
+    transition: 1s;
+}
+.li-hover:hover{
+    color: #E02C6D;
+}
+.fill-btn:hover{
+    background-color: hsl(315, 86%, 58%);
+    transform: scale(1,1);
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+/* ----------------------
+        nav style start      
+------------------------  */
+nav{
+    background-color: #343a40; 
+    width: 100%;
+    color: whitesmoke;  
+}
+.nav-itams{
+    height: 75px;
+    margin: 0 3%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-itams>div>ul>li>a,.fill-btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500;  
+}
+
+.nav-itams>div>ul{
+    display: flex; 
+}
+.new{
+    background-color: #FFC107;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+/* ----------------------
+        nav style end      
+------------------------  */
+
+/* ---------------------------------
+     Main Titel or Web Header start
+------------------------------------  */
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    margin:5% 15%;
+}
+.main-title{
+    width: 50%;
+    margin-right: 2%;
+}
+.title-img{
+    width: 50%;
+    margin-left:10%;
+}
