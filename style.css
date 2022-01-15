@@ -93,10 +93,10 @@ nav{
     display: flex;
     justify-content: center;
     max-width: 1600px;
-    margin:5% 15%;
+    margin:5% 15% 0 15%;
 }
 .main-title{
-    margin-right: 2%;
+    margin-right: 10%;
 }
 .title-img{
     margin-left:10%;
@@ -110,7 +110,7 @@ nav{
 /* --------------------------------
     All collection section start
 ---------------------------------  */
-.Collection-title{
+.populer-collection-title{
     padding-top: 5%;
     text-align: center;
 }
@@ -122,12 +122,12 @@ nav{
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 5%;
     grid-column-gap: 5%;
+    margin-bottom: 10%;
 }
 .collection{
     box-shadow: 0 0 5px 0 lightslategray;
     border-radius: 10px;
     padding:20px;
-
     transition: 1s;
 }
 .collection:hover{
@@ -145,9 +145,32 @@ nav{
     position: absolute;
     right: 15%;
     text-align: right;
-    margin-top: 12%;
+    margin-top: 4%;
     font-weight: 700;
 }
 /* --------------------------------
     All collection section end
 ---------------------------------  */
+
+
+
+/* --------------------------------
+    Our Subscriber section start 
+---------------------------------*/
+.subescriber-section-title{
+    margin-top: 25%;
+    text-align: center;
+}
+.subsctiber{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    box-shadow: 0 0 10px blue;
+    border-radius: 10px;
+    margin:2% 25%;
+    margin-bottom: 10%;
+    padding-left: 5%;
+}
+/* --------------------------------
+    Our Subscriber section end 
+---------------------------------*/
